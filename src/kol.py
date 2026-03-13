@@ -4,7 +4,7 @@ class RobotikKol:
         self.y = 0
         self.aci = 0
         self.tutuyor_mu = False
-        self.masa_yuksekligi = 10
+        self.masa_yuksekligi = 3
 
     def yukari_kalk(self, miktar):
         if self.y + miktar > self.masa_yuksekligi:
